@@ -48,7 +48,7 @@
 	position: relative;
 	margin-right: auto;
 	margin-left: auto;
-	top: 10px;
+	top: 20px;
 }
 img {
 	position:relative;
@@ -67,6 +67,7 @@ img {
 	width: 42px;
 	height: 31px;
 	right: 3%;
+	top: 20px;
 }
 #bd_logo {
 	left: 0px; 
@@ -75,4 +76,28 @@ img {
 #gradient {
 	left: 0px; 
 	top: 0px
+}
+#email_form {
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 260px;
+	height: 22px;
+}
+#end_email {
+	width: 60%;
+	position: relative;
+	float: left;
+	margin-right: 5%;
+}
+#submit_button {
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+	color: #999999;
 }
