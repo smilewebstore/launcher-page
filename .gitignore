@@ -1,7 +1,7 @@
 .bundle
 db/*.sqlite3
 log/*.log
-tmp/
+tmp/*
 vendor/ruby/*
 *.log
 coverage
