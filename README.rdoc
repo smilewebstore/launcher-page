@@ -1,0 +1,5 @@
+== Smile Web Store Launch Page
+
+Pretty basic rails app for the project Smile Web Store.
+
+More information at http://smilewebstore.org

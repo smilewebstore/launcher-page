@@ -1,0 +1,11 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  activerecord:
+    errors:
+      messages:
+        invalid: "Por favor, informe um endereço de e-mail válido"
+        empty: "Por favor, informe o seu endereço de e-mail"
+        blank: "Por favor, informe o seu endereço de e-mail"
+        taken: "E-mail já cadastrado. Obrigado!"

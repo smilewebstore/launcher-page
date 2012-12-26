@@ -1,0 +1,62 @@
+<div class="row">
+  <div class="two columns centered" style="text-align: center">
+    <br />
+    <%= image_tag "smile-web-store.png", :alt => "Smile Web Store" %> &nbsp;
+  </div>
+</div>
+
+<div class="row" style="text-align: center">
+  <div class="ten columns centered">
+    <h1>Smile Web Store</h1>
+    <br><br>
+  </div>
+</div>
+
+<div class="ink">
+  <div class="row" style="text-align: center">
+    <div class="ten columns centered">
+      <br>
+      <h4>Realize trabalhos voluntários em ONGs, hospitais ou escolas e receba créditos chamados Smiling Coins. Utilize então seus Smiling Coins para comprar produtos em nossa loja virtual.</h4>
+      <br>
+    </div>
+  </div>
+</div>
+
+<div class="row get-in-touch">
+  <div class="ten columns centered">
+    <br><br>
+    <h3>Seja o primeiro a receber notícias!</h3>
+  </div>
+</div>
+
+<div class="row">
+  <%- flash.each do |name, msg| %>
+    <div class="two columns"></div>
+  	<div class="ten columns flash <%= name %>">
+  		<%= content_tag :p, msg if msg.is_a?(String) %>
+  	</div>
+  <% end %>
+
+  <%= form_for @user do |f| %>
+    <div class="row">
+      <div class="two columns"></div>
+      <div class="six columns">
+        <p>
+          <%= f.label(:email, "Cadastre o seu e-mail") %>
+          <%= f.text_field :email, :value => "" %>
+        </p>
+      </div>
+      <div class="two columns">
+        <%= f.submit "Cadastrar", :class => "button success" %>
+      </div>
+      <div class="two columns"></div>
+    </div>
+  <% end %>
+</div>
+
+<div class="row">
+  <div class="twelve columns marketing">
+    <%= link_to(image_tag("twitter.png", :alt => "Twitter"), "http://twitter.com/SmileWebStore") %>
+    <%= link_to(image_tag("facebook.png", :alt => "Facebook"), "https://www.facebook.com/SmileWebStore") %>
+  </div>
+</div>
